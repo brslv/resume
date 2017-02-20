@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.8em;
+  background: #fff;
+  color: #232323;
+}
+
+a {
+  color: #232323;
+}
+
+.halo {
+  position: relative;
+  overflow: hidden;
+  background: #f4f4f4;
+  border: 20px solid #fff;
+  padding: 50px;
+  height: 100%;
+  z-index: 1;
+
+  &__container {
+    max-width: 680px;
+  }
+}
+
+.artefact {
+  position: absolute;
+  top: 100;
+  left: 100;
+  min-width: 400px;
+  min-height: 400px;
+  background: lightcoral;
+  z-index: -1;
+}
+
+.artefact--2 {
+  position: absolute;
+  top: 0;
+  left: 500;
+  min-width: 100px;
+  min-height: 100px;
+  background: cornflowerblue;
+  z-index: -1;
+}
+
+.brand {
+  font-size: 1.2em;
+  display: block;
+  margin-bottom: 50px;
+  text-decoration: none;
+  padding: 15px;
+  border: 2px solid #232323;
+  display: inline-block;
+
+  &:hover {
+    background: #232323;
+    color: #fff;
+  }
+}
+
+main section {
+  margin-bottom: 50px;
+}
+
+footer {
+  font-size: 1.5em;
+}
